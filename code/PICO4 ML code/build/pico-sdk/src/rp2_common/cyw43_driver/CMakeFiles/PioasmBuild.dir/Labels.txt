@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/Users/xiayuzeng/Desktop/12-14 test /c code/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule
