@@ -1,3 +1,0 @@
-/Users/xiayuzeng/Desktop/12-14 test /c code/build/pioasm/CMakeFiles/pioasm.dir
-/Users/xiayuzeng/Desktop/12-14 test /c code/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/xiayuzeng/Desktop/12-14 test /c code/build/pioasm/CMakeFiles/rebuild_cache.dir
