@@ -118,7 +118,7 @@ The presentation of object detection:
 
 {{< figure src="/img/presentation1.gif" width="400" align="center">}}
 
-In this part, I met a lot of issues and the most important one was that in a bright environment, the camera reads every bright things or even objects which are able to reflect light as white things (the camera only read grey value from 0 to 255). And this problem was solved successfully in Part 3! 
+In this part, I met a lot of issues and the most important one was that in a high light level environment, the camera reads every bright things or even objects which are able to reflect light as white things (the camera only read grey value from 0 to 255). And this problem was solved successfully in Part 3! 
 
 ----
 ### Step 4. Combine Robotic Arm with PICO4 ML
