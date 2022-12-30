@@ -10,9 +10,9 @@ This part shows the significant issues we met during this project and the soluti
 
 ----
 ### 1. Communication Between Two Boards
-There are multiple ways for us to deal with communications between two boards such as i2c, uart, gpio and so on. However, when 
+We can choose either serial communication or parallel communication to achieve communications between two boards. Both modes have their advantages and disadvantages. The parallel mode offers the advantage of faster loading of the registers, but with the disadvantage of requiring more interconnect traces. The serial mode offers simplicity, but with less speed.
 
-
+Several methods are considered to deal with communications between two boards, such as I2C, UART and GPIO. However, I2C is not available between twp RP2040's communication as RP2040 cannot be slaves. We also tried UART to transfer control signals but the trasfered data is not stable maybe due to the wire connection. Thus, we finally chose to use RP2040's GPIO pins to output instead of others, as using GPIO for parallel communications provides more stability and it is easy to realize.
 
 ----
 ### 2. Image Processing
@@ -42,18 +42,21 @@ To apply black level correction to an image, you can typically use a photo editi
 
 After finding the BLC parameter, I increased this parameter to get better performnce and it works suceessfully! This camera can find the led even in a high level light environment!
 
+#### The modified code:
 ```
     {0x1003,0x8f}, // 0x08
     {0x1007,0x8f}, // 0x08
 ```
 
+#### Presentation:
 {{< figure src="/img/BLC3.gif" width="400">}}
+
 ----
 ### 3. Dynamic Initial State
 
 To increase the interestingness of the demo performance, a dynamic initial state is designed. The robotic arm rotates vertically and horizontally in turns, once it catch the brightest point, it will stop and follow it. If it doesn't detect the led point for a while, it returns to the dynamic initial state!
 
-The code to realize this state:
+#### The code to realize this state:
 
 ```
 initialcounter += 1
@@ -97,6 +100,6 @@ initialcounter += 1
             time.sleep(0.01)
 ```
 
-The final presentation:
+#### The final presentation:
 
 {{< figure src="/img/presentation2.gif" width="800" align="center">}}
